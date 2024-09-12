@@ -1,0 +1,67 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+/static/
+/media/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.venv
+*.venv
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations
+*/migrations/
+*.pyc
+
+# Additional files
+*.sqlite3
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Django build files
+*.mo
+*.po
